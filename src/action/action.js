@@ -2,13 +2,12 @@ export const ADD_LOCATION ='ADD_LOCATION';
 export const FIND_PRODUCTS='FIND_PRODUCTS';
 import {browserHistory} from 'react-router';
 export const addLocation =(location)=>({
-//SNSqjHe7tsVbiqg8oHuN2bvOIttTw43ih3_azKs7
   type:ADD_LOCATION,
   payload:location
 })
 
 const headers={
-  'Authorization':'Token SNSqjHe7tsVbiqg8oHuN2bvOIttTw43ih3_azKs7',
+  'Authorization':'Token apiKeyHidden',
   'Content-Type':'application/json',
   'Accept_Language':'en_EN'
 }
